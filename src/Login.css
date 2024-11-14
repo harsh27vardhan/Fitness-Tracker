@@ -1,0 +1,28 @@
+.login-form{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    font-size: 3rem;
+}
+.login-inps{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+.login-inps input{
+    font-size: 1rem;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+.login-submit-btn{
+    font-size: 1.2rem;
+    border: 3px solid white;
+    color: white;
+    background-color: transparent;
+    border-radius: 25px;
+    padding: 8px 24px;
+}

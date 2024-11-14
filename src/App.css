@@ -1,0 +1,29 @@
+.main-page{
+  display: flex;
+  height: 100dvh;
+  width: 100dvw;
+  justify-content: start;
+  align-items: center;
+  background: rgb(46,57,68);
+background: linear-gradient(90deg, rgba(46,57,68,1) 0%, rgba(18,78,102,1) 100%);
+  color: white;
+  gap: 20%;
+  padding: 2rem;
+}
+.project-contents{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.project-contents img{
+  width: 300px;
+  border-radius: 50%;
+}
+.project-contents h1{
+  font-size: 2.5rem;
+}
+.project-contents h3{
+  font-size: 1.7rem;
+}
